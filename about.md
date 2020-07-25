@@ -3,8 +3,11 @@ layout: base
 title: About
 ---
 
-# About Me
-
+# About Me 
+{: style="text-align: center"}
+\
+\
+\
 South west england based software developer, graduated from Plymouth University in 2020 with First Class Honours.  
 
 Currently working on projects in a wide array of technologies including:
