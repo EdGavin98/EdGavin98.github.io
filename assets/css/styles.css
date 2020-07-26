@@ -16,23 +16,40 @@ a {
     display: block;
 }
 
+nav {
+    width: 20%;
+}
+
 h1 {
     color: #000000;
 }
 
 .title_space {
-    max-width: 35%;
-    flex-grow: 1;
+    flex: 1;
     padding: 10% 5%;
 }
 
 .content_space {
-    max-width: 50%;
-    flex-grow: 2;
+    flex: 1;
     padding: 5%;
 }
 
 .section_title {
     text-align: center;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    body {
+      display: block;
+    }
+}
+
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.2); 
 }
