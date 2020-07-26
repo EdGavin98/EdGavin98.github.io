@@ -4,6 +4,9 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
         <title>{{ page.title }} - Edward Gavin</title>
         <link rel="stylesheet" href="/assets/css/styles.css" />
     </head>
@@ -14,8 +17,10 @@
             <p>just about anything really</p>
             {% include navigation.html %}
         </div>
+        {% if content != "" %}
         <div class="content_space">
             {{ content }}
         </div>
+        {% endif %}
     </body>
 </html>
